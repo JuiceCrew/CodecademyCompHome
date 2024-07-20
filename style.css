@@ -15,17 +15,21 @@ body {
 
 header {
   padding: 30px 100px;
-  height: 100px;
+  height: 20%;
+}
+
+h1 {
+  color: #988558;
+  font-family: 'Black Ops One', serif;
+  font-size: 80px;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 0px 2px 4px black;
 }
 
 header h1 {
   display: flex;
   justify-content: center;
-  color: #988558;
-  font-family: 'Black Ops One', serif;
   font-size: 50px;
-  -webkit-text-stroke: 1px black;
-  text-shadow: 0px 2px 4px black;
 }
 
 ul {
@@ -42,5 +46,11 @@ a {
 }
 
 .hero {
-  background-image:
+  padding: 30px 100px;
+  margin: 100px;
+  height: 400px;
+}
+
+.hero h1 {
+  
 }
