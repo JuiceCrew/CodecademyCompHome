@@ -46,9 +46,10 @@ a {
 }
 
 .hero {
-  padding: 30px 100px;
+  padding: 30px 100px 0 100px;
   margin: 50px;
   height: 40%;
+
 }
 
 .hero h1 {
@@ -79,6 +80,7 @@ a {
 .feature-pic {
   width: 50%;
   height: 100%;
+  border-radius: 15px;
 }
 
 .feature-text {
@@ -88,4 +90,37 @@ a {
   -webkit-text-stroke: 2px black;
   text-shadow: 0px 2px 4px black;
 }
+
+.shop-sec h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+.item-image {
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  font-family: 'Orbitron', serif;
+  color: #988558;
+  font-size: 50px;
+  -webkit-text-stroke: 2px black;
+  text-shadow: 0px 2px 4px black;
+}
+
 
