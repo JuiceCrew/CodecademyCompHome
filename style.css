@@ -73,7 +73,7 @@ a {
   align-items: center;
   height: 60%;
   padding: 30px 100px;
-  margin: 50px;
+  margin: 50px 50px 100px 50px;
 }
 
 .feature-pic {
