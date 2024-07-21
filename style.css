@@ -47,8 +47,8 @@ a {
 
 .hero {
   padding: 30px 100px;
-  margin: 100px;
-  height: 400px;
+  margin: 50px;
+  height: 40%;
 }
 
 .hero h1 {
@@ -65,5 +65,27 @@ a {
   -webkit-text-stroke: 2px black;
   text-shadow: 0px 2px 4px black;
   padding-top: 30px;
+}
+
+.feature-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60%;
+  padding: 30px 100px;
+  margin: 50px;
+}
+
+.feature-pic {
+  width: 50%;
+  height: 100%;
+}
+
+.feature-text {
+  font-family: 'Orbitron', serif;
+  color: #988558;
+  font-size: 50px; 
+  -webkit-text-stroke: 2px black;
+  text-shadow: 0px 2px 4px black;
 }
 
