@@ -41,6 +41,12 @@ header,
   padding: 30px 100px;
 }
 
+/* hover and link states */
+
+a:hover {
+  color: #d03d56;
+}
+
 /* header and nav section */
 
 header {
@@ -92,10 +98,15 @@ a {
   height: 60%;
 }
 
+.feature-sec > a {
+  display: contents;
+}
+
 .feature-pic {
   width: 50%;
   height: 100%;
   border-radius: 15px;
+  box-shadow: 4px 4px #36454f;
 }
 
 /* shop and plat sections */
@@ -120,6 +131,7 @@ a {
   width: 500px;
   height: 300px;
   border-radius: 15px;
+  box-shadow: 4px 4px #36454f;
 }
 
 .items,
@@ -131,6 +143,11 @@ a {
   gap: 10px;
 }
 
+.items > a,
+.plat-bun > a {
+  display: contents;
+}
+
 /* contact section */
 
 .contact {
@@ -139,4 +156,15 @@ a {
   align-items: center;
 }
 
+/* copyright section */
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+}
+
+footer .subtext {
+  font-size: 25px;
+}
 
