@@ -31,11 +31,19 @@ h1 {
   text-shadow: 0px 2px 4px black;
 }
 
+header,
+.hero,
+.feature-sec,
+.shop-sec,
+.plat-sec,
+.contact {
+  margin: 50px 50px 100px 50px;
+  padding: 30px 100px;
+}
+
 /* header and nav section */
 
 header {
-  margin: 50px 50px 100px 50px;
-  padding: 30px 100px;
   height: 20%;
 }
 
@@ -61,10 +69,7 @@ a {
 /* hero banner section */
 
 .hero {
-  padding: 30px 100px;
-  margin: 50px 50px 100px 50px;
   height: 40%;
-
 }
 
 .hero h1 {
@@ -85,8 +90,6 @@ a {
   flex-direction: column;
   align-items: center;
   height: 60%;
-  padding: 30px 100px;
-  margin: 50px 50px 100px 50px;
 }
 
 .feature-pic {
@@ -96,12 +99,6 @@ a {
 }
 
 /* shop and plat sections */
-
-.shop-sec,
-.plat-sec {
-  margin: 50px 50px 100px 50px;
-  padding: 30px 100px;
-}
 
 .shop-sec h1,
 .plat-sec h1 {
@@ -140,8 +137,6 @@ a {
   display: flex;
   flex-direction: column; 
   align-items: center;
-  margin: 50px 50px 100px 50px;
-  padding: 30px 100px;
 }
 
 
