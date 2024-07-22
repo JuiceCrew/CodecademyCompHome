@@ -13,12 +13,7 @@ body {
   background-attachment: fixed;
 }
 
-/* header and nav section */
-
-header {
-  padding: 30px 100px;
-  height: 20%;
-}
+/* recurring styles */
 
 h1 {
   color: #988558;
@@ -26,6 +21,22 @@ h1 {
   font-size: 80px;
   -webkit-text-stroke: 1px black;
   text-shadow: 0px 2px 4px black;
+}
+
+.subtext {
+  color: #988558;
+  font-family: 'Orbitron', serif;
+  font-size: 50px;
+  -webkit-text-stroke: 2px black;
+  text-shadow: 0px 2px 4px black;
+}
+
+/* header and nav section */
+
+header {
+  margin: 50px 50px 100px 50px;
+  padding: 30px 100px;
+  height: 20%;
 }
 
 header h1 {
@@ -51,7 +62,7 @@ a {
 
 .hero {
   padding: 30px 100px;
-  margin: 50px;
+  margin: 50px 50px 100px 50px;
   height: 40%;
 
 }
@@ -62,13 +73,8 @@ a {
 }
 
 .hero-sub {
-  font-family: 'Orbitron', serif;
-  color: #988558;
-  font-size: 50px;
   display: flex;
   justify-content: center;
-  -webkit-text-stroke: 2px black;
-  text-shadow: 0px 2px 4px black;
   padding-top: 30px;
 }
 
@@ -87,14 +93,6 @@ a {
   width: 50%;
   height: 100%;
   border-radius: 15px;
-}
-
-.feature-text {
-  font-family: 'Orbitron', serif;
-  color: #988558;
-  font-size: 50px; 
-  -webkit-text-stroke: 2px black;
-  text-shadow: 0px 2px 4px black;
 }
 
 /* shop and plat sections */
@@ -134,14 +132,16 @@ a {
   justify-content: center;
   text-align: center;
   gap: 10px;
-  font-family: 'Orbitron', serif;
-  color: #988558;
-  font-size: 50px;
-  -webkit-text-stroke: 2px black;
-  text-shadow: 0px 2px 4px black;
 }
 
 /* contact section */
 
+.contact {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin: 50px 50px 100px 50px;
+  padding: 30px 100px;
+}
 
 
