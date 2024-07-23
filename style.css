@@ -127,7 +127,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 35px;
+  gap: 25px;
 }
 
 .item-image,
@@ -135,7 +135,14 @@ a {
   width: 500px;
   height: 300px;
   border-radius: 15px;
+  margin: 10px;
   box-shadow: 4px 4px #36454f;
+}
+
+.item-image:active,
+.plat-image:active {
+  margin: 14px 6px 6px 14px;
+  box-shadow: 0px 0px;
 }
 
 .items,
@@ -144,13 +151,13 @@ a {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  gap: 10px;
 }
 
 .items > a,
 .plat-bun > a {
   display: contents;
 }
+
 
 /* contact section */
 
